@@ -10,7 +10,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "storybook": "start-storybook -p 6006 -s ./public --disable-telemetry",
-    "build-storybook": "build-storybook -s ./public"
+    "build-storybook": "build-storybook -s ./public",
+    "prettier": "prettier --ignore-path .gitignore --write ."
   },
   "dependencies": {
     "next": "13.0.3",
@@ -36,6 +37,7 @@
     "eslint-config-next": "13.0.3",
     "eslint-plugin-storybook": "^0.6.7",
     "jest": "^29.3.1",
-    "jest-environment-jsdom": "^29.3.1"
+    "jest-environment-jsdom": "^29.3.1",
+    "prettier": "^2.7.1"
   }
 }
